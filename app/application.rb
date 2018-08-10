@@ -3,6 +3,7 @@ class Application
     resp = Rack::Response.new
     
     time = Time.now
-    if 
+    if time.hour < 12
+      write
   end
 end
